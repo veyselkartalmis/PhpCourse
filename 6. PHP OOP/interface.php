@@ -15,7 +15,7 @@
         public function connect($host, $dbName, $user, $pass);
     }
 
-    class Database implements DB //,CROUD yapabilirdim.
+    class Database implements DB //CRUD yapabilirdim.
     {
         //Classı DB'den türettim. Onun yerine 
         public function connect($host, $dbName, $user, $pass){}
